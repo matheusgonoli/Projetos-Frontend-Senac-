@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imganes/img_01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.titulo {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    /* Cor de fundo para destacar a transparência da imagem */
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo img {
+    width: 300px;
+    height: auto;
+}
+
+.portugues {
+    position: fixed;
+    top: 40px;
+    right: 100px;
+}
+
+.btn-entrar {
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s ease;
+}
+
+.texto01 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+    padding: 20px;
+    width: 900px;
+}
+
+.texto01 h1 {
+    margin: 0;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.texto02 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+}
+.texto02 p {
+    margin: 0;
+    font-style: inherit;
+    color: white;
+}
+
+.informacoes {
+    position: fixed;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff00;
+    padding: 20px;
+    width: 500px;
+} 
+
+.informacoes p {
+    margin: 0;
+    font-style: normal;
+    color: white;
+}
+
+.email {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 5px;
+    width: 400px;
+}
+
+.botom {
+    position: fixed;
+    top: 63%;
+    left: 73%;
+    width: 150px;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 7px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s ease;
+}
+
